@@ -4,7 +4,7 @@ Delay 300
 KeyPress ".", 1
 Delay 300
 //click the battlemaster, try to map him to the mouse position
-MoveTo 639, 528
+MoveTo 1043, 437
 Delay 500
 RightClick 2
 Delay 500
@@ -29,6 +29,7 @@ Delay 500
 //Move forward
 KeyDown "W", 1
 Delay 3000
+KeyUp "W", 1
 //Jump
 KeyPress "Space", 1
 Delay 1000
