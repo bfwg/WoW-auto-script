@@ -1,43 +1,47 @@
-//follow someone bind your follow key to '.'
-KeyPress ".", 1
-Delay 300
-KeyPress ".", 1
-Delay 300
 //click the battlemaster, try to map him to the mouse position
-MoveTo 1043, 437
-Delay 500
+MoveTo 340, 587
+//MoveTo 1043, 437
+Delay 250
 RightClick 2
-Delay 500
+Delay 250
 //click queue battlefield
-MoveTo 231, 531
-Delay 500
+MoveTo 211, 556
+//MoveTo 231, 531
+Delay 250
 LeftClick 2
-Delay 500
+Delay 250
 //click enter battlefield
-MoveTo 552, 187
-Delay 500
+KeyPress "F9", 1
+Delay 250
 //cancel revive
-MoveTo 625, 181
-Delay 500
-LeftClick 2
-Delay 500
+KeyPress "F9", 1
+Delay 250
 //click leave battlefield
-MoveTo 701, 556
-Delay 500
+MoveTo 743, 625
+//MoveTo 701, 556
+Delay 250
 LeftClick 2
-Delay 500
+Delay 250
 //Move forward
-KeyDown "W", 1
+KeyDown "Up", 1
 Delay 3000
-KeyUp "W", 1
-//Jump
-KeyPress "Space", 1
-Delay 1000
-KeyPress "Space", 1
-Delay 1000
-KeyPress "Space", 1
-Delay 1000
-KeyPress ".", 1
-Delay 300
-KeyPress ".", 1
-Delay 300
+KeyUp "Up", 1
+//auto relogin//
+//click on confirm disconnected box
+MoveTo 794, 464
+LeftClick 1
+//enter password
+KeyPress "q", 1
+KeyPress "q", 1
+KeyPress "1", 1
+KeyPress "2", 1
+KeyPress "3", 1
+KeyPress "4", 1
+KeyPress "5", 1
+KeyPress "6", 1
+KeyPress "Enter", 1
+Delay 8000
+KeyPress "Enter", 1
+
+
+
