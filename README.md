@@ -1,9 +1,15 @@
 # WoW-auto-script
 Auto VB script for auto queue, enter and exit battlefield
 
-Write a macro:
+macros:
+follow nearest player
 ```
 /targetfriendplayer
 /follow
 ```
-and then bind to key '.' for auto follow player reason.
+
+auto click static promt
+```
+/click StaticPopup1Button1
+```
+and then bind macro to key 'F9' for script to access it.
